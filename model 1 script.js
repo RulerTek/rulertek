@@ -208,3 +208,38 @@ document.querySelectorAll(".primary-btn,.secondary-btn,.call-btn,.whatsapp-btn")
 
 
 console.log("RulerTek Tracking Systems Loaded Successfully");
+// Counter Animation
+
+const counters=document.querySelectorAll(".counter");
+
+counters.forEach(counter=>{
+
+const update=()=>{
+
+const target=parseInt(counter.innerText);
+
+let count=parseInt(counter.getAttribute("data-count"))||0;
+
+const increment=target/80;
+
+if(count<target){
+
+count+=increment;
+
+counter.innerText=Math.ceil(count)+"+";
+
+counter.setAttribute("data-count",count);
+
+requestAnimationFrame(update);
+
+}else{
+
+counter.innerText=target+"+";
+
+}
+
+};
+
+update();
+
+});
