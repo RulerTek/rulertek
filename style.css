@@ -1,8 +1,96 @@
-body{font-family:Arial,sans-serif;margin:0;background:#f7f7f7;color:#222}
-header{background:#0b3b75;color:#fff;padding:15px;display:flex;justify-content:space-between;align-items:center}
-nav a{color:#fff;margin:0 10px;text-decoration:none}
-.hero{background:#123c7a;color:#fff;text-align:center;padding:80px 20px}
-.btn{display:inline-block;background:#f5b400;color:#000;padding:12px 20px;margin:8px;text-decoration:none;border-radius:6px}
-.secondary{background:#fff}
-section{padding:40px 20px;max-width:1000px;margin:auto}
-iframe{width:100%;height:300px;border:0}
+ <!-- CSS Placeholder -->
+    <style id="main-styles">
+        /* Styles will be injected in the next step */
+    </style>
+</head>
+<body>
+
+    <header id="navbar">
+        <nav>
+            <div class="logo">RulerTek</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Precision GPS Tracking for Your Business</h1>
+            <p>Advanced Fleet Management & Personal Security Solutions</p>
+            <button>Get Started</button>
+        </section>
+
+        <section id="about">
+            <h2>About RulerTek</h2>
+            <p>Industry-leading GPS technology for modern businesses.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">Vehicle Tracking</div>
+                <div class="card">Fleet Management</div>
+                <div class="card">GPS Installation</div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Premium GPS Hardware</h2>
+        </section>
+
+        <section id="fleet-management">
+            <h2>Fleet Management Dashboard</h2>
+        </section>
+
+        <section id="features">
+            <h2>Live Tracking Features</h2>
+        </section>
+
+        <section id="why-us">
+            <h2>Why Choose RulerTek</h2>
+        </section>
+
+        <section id="stats">
+            <h2>Our Statistics</h2>
+        </section>
+
+        <section id="industries">
+            <h2>Industries We Serve</h2>
+        </section>
+
+        <section id="installation">
+            <h2>Installation Process</h2>
+        </section>
+
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: +91 75987 81902</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RulerTek Tracking Systems. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS Placeholder -->
+    <script id="main-script">
+        // Logic will be injected in the final step
+    </script>
+</body>
+</html>
