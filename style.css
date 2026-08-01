@@ -498,3 +498,238 @@ header{
     border-radius:20px;
     box-shadow:0 25px 50px rgba(0,0,0,.35);
 }
+/* ==========================================
+   STATISTICS
+========================================== */
+
+.stats{
+    padding:90px 8%;
+    background:#FFC107;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    text-align:center;
+}
+
+.stat-box{
+    color:#071A3D;
+}
+
+.stat-box h2{
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    font-size:18px;
+    font-weight:600;
+}
+
+/* ==========================================
+   CONTACT
+========================================== */
+
+.contact{
+    padding:120px 0;
+    background:#081F46;
+}
+
+.contact-box{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+}
+
+.contact-info h3{
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    margin-bottom:18px;
+    color:#d7d7d7;
+}
+
+.contact-info i{
+    color:#FFC107;
+    margin-right:10px;
+}
+
+.contact-form{
+    background:#0D2A5A;
+    padding:40px;
+    border-radius:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:16px;
+    margin-bottom:18px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    background:#14386F;
+    color:#fff;
+    font-family:Poppins,sans-serif;
+}
+
+.contact-form textarea{
+    resize:none;
+}
+
+.contact-form button{
+    border:none;
+    cursor:pointer;
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+    background:#05152F;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.footer-logo img{
+    width:130px;
+    margin:auto auto 20px;
+}
+
+footer p{
+    color:#cfcfcf;
+    font-size:15px;
+}
+
+/* ==========================================
+   FLOATING BUTTONS
+========================================== */
+
+.float-whatsapp,
+.float-call{
+    position:fixed;
+    right:20px;
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:24px;
+    z-index:999;
+    box-shadow:0 10px 30px rgba(0,0,0,.30);
+    transition:.3s;
+}
+
+.float-whatsapp{
+    bottom:25px;
+    background:#25D366;
+}
+
+.float-call{
+    bottom:95px;
+    background:#FFC107;
+    color:#071A3D;
+}
+
+.float-whatsapp:hover,
+.float-call:hover{
+    transform:scale(1.08);
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:991px){
+
+.nav-links,
+.nav-buttons{
+    display:none;
+}
+
+.menu-btn{
+    display:block;
+}
+
+.hero h1{
+    font-size:46px;
+}
+
+.hero-features{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.about .container,
+.fleet .container,
+.contact-box{
+    grid-template-columns:1fr;
+}
+
+.about-content,
+.fleet-left,
+.contact-info{
+    text-align:center;
+}
+
+.about-list{
+    grid-template-columns:1fr;
+}
+
+.stats{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding-top:120px;
+}
+
+.hero-logo{
+    width:120px;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.section-title h2,
+.about-content h2,
+.fleet-left h2{
+    font-size:32px;
+}
+
+.product-grid,
+.service-grid{
+    grid-template-columns:1fr;
+}
+
+.stats{
+    grid-template-columns:1fr;
+}
+
+.contact-form{
+    padding:25px;
+}
+
+.primary-btn,
+.secondary-btn{
+    width:100%;
+    text-align:center;
+}
+
+}
