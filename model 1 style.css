@@ -559,7 +559,197 @@ font-size:44px;
 }
 
 }
+/* ===========================
+STATISTICS
+=========================== */
 
+.stats{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+background:#FFC107;
+
+padding:80px 8%;
+
+text-align:center;
+
+}
+
+.stat-box{
+
+color:#071A3D;
+
+}
+
+.stat-box h2{
+
+font-size:55px;
+
+margin-bottom:10px;
+
+}
+
+.stat-box p{
+
+font-size:20px;
+
+font-weight:600;
+
+}
+
+/* ===========================
+WHY
+=========================== */
+
+.why{
+
+padding:120px 0;
+
+background:#071A3D;
+
+}
+
+.why .container{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.why-left h5{
+
+color:#FFC107;
+
+margin-bottom:15px;
+
+}
+
+.why-left h2{
+
+font-size:48px;
+
+margin-bottom:25px;
+
+}
+
+.why-left p{
+
+line-height:2;
+
+color:#ddd;
+
+margin-bottom:30px;
+
+}
+
+.why-left ul{
+
+list-style:none;
+
+}
+
+.why-left li{
+
+padding:12px 0;
+
+font-size:18px;
+
+}
+
+.why-right img{
+
+width:100%;
+
+border-radius:25px;
+
+box-shadow:0 20px 50px rgba(0,0,0,.4);
+
+}
+
+/* ===========================
+FLEET
+=========================== */
+
+.fleet{
+
+padding:120px 0;
+
+background:#081F46;
+
+}
+
+.fleet-grid{
+
+width:90%;
+
+max-width:1200px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:35px;
+
+}
+
+.fleet-card{
+
+padding:45px;
+
+background:#0D2A5A;
+
+border-radius:20px;
+
+transition:.4s;
+
+text-align:center;
+
+}
+
+.fleet-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 25px 50px rgba(0,0,0,.35);
+
+}
+
+.fleet-card h3{
+
+font-size:28px;
+
+margin-bottom:15px;
+
+color:#FFC107;
+
+}
+
+.fleet-card p{
+
+color:#ddd;
+
+line-height:1.8;
+
+}
+
+@media(max-width:991px){
+
+.why .container{
+
+grid-template-columns:1fr;
+
+}
+
+}
 @media(max-width:768px){
 
 .hero{
